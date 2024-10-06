@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url(../img/bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+header{
+    color: lightseagreen;
+    background-color: black;
+    font-size: 2.5rem; /* Ajustar el tamaño de la fuente como se necesite */
+    font-family:"Cinzel","Cinzel";
+    height: 100px; /* Ajustar la altura del header */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: "Cinzel", "Cinzel";
+}
+
+h2{
+    font-family: "Cinzel", "Cinzel";
+}
+
+.mark{
+    background-color: crimson;
+}
+
+.navbar {
+    display: flex;
+    background-color: #333;
+    padding: 15px 50px;
+}
+
+.nav-item{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:"Cinzel","Cinzel";
+    border-radius: 8px;
+}
+
+.nav-item a {
+    transition: background-color 0.5s ease;
+}
+
+.nav-item a:hover {
+    background-color: #111;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 12px;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 12px;
+}
+  
+li a:hover:not(.active) {
+    background-color: #111;
+}
+  
+.active {
+    background-color: #2757b1;
+}
