@@ -1,0 +1,32 @@
+/*el id predomina por lo demás, sin importar su posición*/
+/* *ID >> .CLASS >> Referencia a elemento/s */
+
+#parrafo1
+{
+    background-color: black;
+    border: 5px dashed blue;
+}
+#parrafo2
+{
+    background-color: burlywood;
+}
+p
+{
+    background-color: green;
+    color: white;
+}
+.parrafo3
+{
+    background-color: coral;
+}
+body
+{
+    background-color: darkgreen;
+}
+div
+{
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
